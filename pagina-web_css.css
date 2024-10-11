@@ -1,0 +1,103 @@
+body{
+background-image: url(fondo2.webp);
+margin: 0;
+padding: 0;}
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+h1{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+header {
+  
+  background-color: lightblue;
+  color: black;
+  padding: 1px;
+  text-align: center;
+}
+input{
+    background-color: lightcyan;
+    color: black; 
+}
+form{
+    text-align: center;
+}
+
+div.gallery {
+    margin: 1%;
+    border: 5px solid #ccc;
+   float: inline-start;
+    width: 29%;
+  
+}
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+select#paises{
+background-color: lightcyan;
+color: black;
+}
+  
+  div.desc {
+    padding: 20px;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+  .button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  footer {
+    background-color: #333;
+    color: white;
+    padding:1px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+
+#twitter-link,#insta-link{
+    color: white;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+#insta-logo,#twitter-logo {
+    width: 30px;
+    height: auto;
+  
+}
+.payment-methods {
+  display: flex;
+  gap: 15px;
+}
+
+.payment-methods img {
+  width: 50px; /* Ajusta el tamaño según sea necesario */
+  height: auto;
+}
+#loguito {
+  width: 60px; /* Ajusta el tamaño según sea necesario */
+  height: auto;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
